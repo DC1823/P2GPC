@@ -25,6 +25,7 @@ for i in range(100):
 rayTracer.escena.append(Sphere(pos=(-5,5,-15),radi=3,mat=sol))
 rayTracer.escena.append(Sphere(pos=(0,-11,-25),radi=2.5,mat=satu))
 rayTracer.escena.append(Disk(pos=(0,-11,-25),norm=(0,1,0),mat=estrella,radi=4))
+rayTracer.escena.append(Sphere(pos=(10,5,-25),radi=3.5,mat=mirror()))
 rayTracer.escena.append(Sphere(pos=(10,12,-25),radi=3,mat=blackhole()))
 rayTracer.escena.append(Disk(pos=(10,12,-25),norm=(0,1,0),mat=bhhalo(),radi=4))
 rayTracer.escena.append(AABB(pos=(-13,0,-25),tama=(2,3,3),mat=satelite()))
